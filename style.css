@@ -94,7 +94,7 @@ i {
   content: "";
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #06121e), url("../assets/Maquinas2.jpg");
+  background-image: linear-gradient(to bottom, rgba(6, 18, 30, 0.1), #000000), url("../assets/Maquinas2.jpg");
   left: 0;
   top: 0;
   width: 100%;
@@ -184,7 +184,7 @@ i {
   }
 }
 .about {
-  background-color: #06121e;
+  background-color: #000000;
   overflow: hidden;
   color: #fff;
 }
@@ -227,7 +227,7 @@ i {
   }
 }
 .services {
-  background-color: #fff;
+  background-color: #edeaef;
   color: #232224;
   display: flex;
   flex-direction: column;
@@ -382,7 +382,7 @@ body {
   width: 100%;
   height: 100vh;
   position: absolute;
-  background-color: #06121e;
+  background-color: #000000;
 }
 
 button {

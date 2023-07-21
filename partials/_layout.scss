@@ -13,7 +13,7 @@
   content: '';
   display: block;
   position: absolute;
-  background-image: linear-gradient(to bottom, rgb(6, 18, 30, 0.1), #06121e), url("../assets/Maquinas2.jpg");
+  background-image: linear-gradient(to bottom, rgb(6, 18, 30, 0.1), #000000), url("../assets/Maquinas2.jpg");
   left: 0;
   top: 0;
   width: 100%;
@@ -176,7 +176,7 @@
 
 //-----------Services-------------------
 .services{
-  background-color: $white-normal;
+  background-color: $white-dark;
   color: $black-normal;
   display: flex;
   flex-direction: column;
