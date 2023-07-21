@@ -6,6 +6,6 @@ const buttonsWpp = document.querySelectorAll("#whatsapp");
 
 buttonsWpp.forEach(button => {
   button.addEventListener("click", function() {
-    window.location.href = "https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!";
+    window.open("https://api.whatsapp.com/send?phone=5548991781573&text=Quero%20fazer%20um%20agendamento%20hoje!", "_blank");
   });
 });
