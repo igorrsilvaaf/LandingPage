@@ -54,11 +54,11 @@ i {
 }
 
 .header-logo {
-  width: 140px;
+  width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 1px;
+  margin-top: -50px;
 }
 
 /*Responsividade do meu header*/
@@ -70,12 +70,11 @@ i {
     justify-content: center;
   }
   .header-content i {
-    margin-top: 16px;
-    font-size: 34px;
+    margin-top: 10px;
+    font-size: 24px;
   }
   .header-logo {
-    width: 140px;
-    margin-top: 35px;
+    width: 280px;
   }
   .header-button {
     display: none;
@@ -120,7 +119,7 @@ i {
   text-align: center;
   line-height: 150%;
   max-width: 920px;
-  font-size: 23px;
+  font-size: 84px;
   margin-bottom: 40px;
 }
 .hero h3 {
@@ -161,9 +160,9 @@ i {
     min-height: 60vh;
   }
   .hero h1 {
-    font-size: 26px;
-    padding: 0 14px;
-    width: 100%;
+    font-size: 28px;
+    padding: 2 18px;
+    line-height: 150%;
   }
   .hero h3 {
     padding: 0 10px;
@@ -177,7 +176,7 @@ i {
 }
 @media screen and (max-width: 480px) {
   .hero h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   p {
     font-size: 14px;
@@ -318,12 +317,14 @@ i {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 48px 0;
+  padding: -68px 0;
   color: #fff;
 }
 .footer p {
-  padding-top: 10px;
-  text-align: justify;
+  text-align: center;
+}
+.footer img {
+  max-width: 320px;
 }
 
 @media screen and (max-width: 768px) {
@@ -332,6 +333,9 @@ i {
     text-align: justify;
     padding: 10px;
     margin-bottom: -50px;
+  }
+  .footer img {
+    width: 288px;
   }
 }
 .btn-whatsapp {
