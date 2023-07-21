@@ -29,7 +29,7 @@
 //----------Hero-------------
 .hero{
   color: $white-normal;
-  min-height: 80vh;
+  min-height: 70vh;
 
   display: flex;
   flex-direction: column;
@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 768px){
   .hero{
-    min-height: 70vh;
+    min-height: 60vh;
 
     h1{
       font-size: 26px;
