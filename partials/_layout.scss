@@ -1,0 +1,342 @@
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+// BG home
+.bg-home{
+  position: relative;
+}
+
+.bg-home::before{
+  content: '';
+  display: block;
+  position: absolute;
+  background-image: linear-gradient(to bottom, rgb(6, 18, 30, 0.1), #06121e), url("../assets/Maquinas2.jpg");
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  opacity: 0.9;
+}
+// -------End Bg home --------
+
+//----------Hero-------------
+.hero{
+  color: $white-normal;
+  min-height: 80vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+
+  h1{
+    text-align: center;
+    line-height: 150%;
+    max-width: 920px;
+    font-size: 23px;
+    margin-bottom: 40px;
+  }
+
+  h3{
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  P{
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.button-contact{
+  padding: 14px 28px;
+  color: $white-normal;
+  background-color: $red-normal;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 14px 0;
+}
+
+.button-contact:hover{
+  animation: scaleButton 0.8s alternate infinite;
+}
+
+@keyframes scaleButton {
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.07);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .hero{
+    min-height: 70vh;
+
+    h1{
+      font-size: 26px;
+      padding: 0 14px;
+      width: 100%;
+    }
+
+    h3{
+      padding: 0 10px;
+    }
+
+    p{ //arrumar aqui 
+      font-size: 12px;
+    }
+
+    .button-contact{
+      margin-top: 90px;
+    }
+    
+  }
+}
+
+@media screen and (max-width: 480px){
+  .hero h1{
+    font-size: 20px;
+  }
+
+  p{
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+//---------------End hero------------------
+
+//------------About----------------
+
+.about{
+  background-color: $primary-normal;
+  overflow: hidden;
+  color: $white-normal;
+}
+
+.about-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 34px 14px 14px;
+
+  img{
+    max-width: 570px;
+  }
+}
+
+.about-content div{
+  flex: 1;
+}
+
+.about-description{
+  h2{
+    color: $red-normal;
+    font-size: 40px;
+    margin-bottom: 25px;
+  }
+
+  h3{
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+
+  p{
+    margin-bottom: 15px;
+    line-height: 150%;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-content{
+    flex-direction: column;
+  }
+
+  .about-description p{
+    font-size: 16px;
+  }
+}
+
+//------------ End About----------------
+
+//-----------Services-------------------
+.services{
+  background-color: $white-normal;
+  color: $black-normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 14px;
+}
+
+.services-content h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.services-content p{
+  line-height: 150%;
+  margin-bottom: 14px;
+  padding: 12px;
+  text-align: left;
+  max-width: 780px;
+}
+
+@media screen and (max-width: 768px) {
+  .services-content h2{
+    font-size: 28px;
+    margin-top: -12px;
+  }
+}
+
+.haircuts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 0 34px 22px 34px;
+}
+
+.haircut{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: $white-normal;
+  border-radius: 8px;
+  box-shadow: 0px -1px 17px -4px rgba(0,0,0, 0.5);
+  overflow: hidden;
+
+  img{
+    width: 100%;
+    max-width: 354px;
+
+    transition: transform 0.3s;
+  }
+}
+
+.haircut img:hover{
+  transform: scale(1.3);
+  z-index: 1;
+}
+
+.haircut-info{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  background-color: $white-normal;
+  z-index: 2;
+
+  button{
+    background-color: $red-normal;
+    color: $white-normal;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .haircuts{
+    flex-direction: column;
+  }
+
+  .haircut img{
+    max-width: 740px;
+  }
+}
+
+//----------------End haircuts----------------
+
+//----------------Footer----------------
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 0;
+  color: $white-normal;
+
+  p{
+    padding-top: 10px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p{
+    font-size: 12px;
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: -50px;
+  }
+}
+
+//------------End Footer------------
+
+//-----------WhatsApp--------------- 
+.btn-whatsapp{
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  z-index: 2;
+
+  img{
+    max-width: 38px;
+    transform: transition 0.4s;
+  }
+
+  img:hover{
+    transform: scale(1.12);
+  }
+}
+
+.btn-whatsapp .span{
+  visibility: hidden;
+  position: absolute;
+  width: 120px;
+  top: -10px;
+  left: -125px;
+  padding: 5px;
+  border-radius: 6px;
+  text-align: center;
+  background-color: $black-normal;
+  color: $white-normal;
+  font-size: 12px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.btn-whatsapp:hover .span{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+  .btn-whatsapp{
+    max-width: 30px;
+  }
+}

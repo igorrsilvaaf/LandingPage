@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" href="assets/Icone.ico"/>
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://font.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Sora:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--Animaçoes-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <title>Barbearia central</title>
+</head>
+<body>
+  <!--Header-->
+  <div class="bg-home">
+    <header>
+      <nav class="header-content container">
+        <div class="header-icons" data-aos="fade-up">
+          <a href="#">
+            <i class="fa-brands fa-instagram fa-2px"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook fa-2px"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-tiktok fa-2px"></i>
+          </a>
+        </div>
+        <div class="header-logo" data-aos="fade-up">
+          <img data-aos="flip-left" data-aos-delay="340" data-aos-duration="1200" src="assets/logo.svg" alt="Logo da pagina" />
+        </div>
+        <div data-aos="fade-up">
+          <a class="header-button" href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!" target="_blank">
+            Agendar horarío
+          </a>
+        </div>
+      </nav>
+      <main class="hero container" data-aos="fade-up" data-aos-delay="400">
+        <h1>ESTILO E CONFIANÇA SE ENCONTRAM NAS NOSSAS CADEIRAS. BEM-VINDO À NOSSA BARBEARIA, ONDE OS CORTES DE CABELO SÃO ARTE E A SATISFAÇÃO DO CLIENTE É O NOSSO OBJETIVO</h1>
+        <h3>Horário de funcionamento:</h3>
+        <p>Segunda á Sexta 09:00 ás 20:00</p>
+        <!-- <p>Sabádo 10:00 ás 15:00</p> -->
+        <a href="https://api.whatsapp.com/send?phone=5511000000000&text=Quero%20fazer%20um%20agendamento%20hoje!"
+          class="button-contact" 
+          target="_blank">
+          Agendar horário
+        </a>
+      </main>
+    </header>
+  </div>
+  <section class="about" data-aos="fade-down" data-aos-delay="400">
+    <div class="container about-content">
+      <div>
+        <img src="assets/Espaco.svg" 
+             alt="Imagem sobre a barbearia">
+      </div>
+      <div class="about-description">
+        <h2>Sobre</h2>
+        <p>
+          A Barbearia Bravos oferece serviços excepcionais de barbearia com autenticidade e estilo. Nossos experientes barbeiros garantem uma experiência personalizada, com cortes de cabelo e estilos de barba impecáveis. Valorizamos a satisfação dos clientes em um ambiente relaxante. Além disso, oferecemos tratamentos para a pele e produtos de qualidade. Agende seu horário hoje mesmo e descubra por que somos a escolha preferida dos homens que valorizam estilo e qualidade.</p>
+          <!-- <h3> Seja bem-vindo à família Bravos! </h3> -->
+      </div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="services-content container">
+      <h2>Conheça nossos serviços</h2>
+      <h4>Cortes de cabelos</h4>
+      <p>Nossa equipe de profissionais habilidosos e apaixonados pela arte do corte de cabelo está pronta para criar um visual que se alinhe perfeitamente com a sua personalidade e estilo. Seja um corte clássico ou um penteado moderno e arrojado, nossos especialistas dominam uma ampla variedade de técnicas para garantir que você saia com um corte impecável e sob medida.</p>
+      <h4>Barbas:</h4>
+      <p>Para os amantes da barba, a Barbearia Bravos é o local ideal para obter um tratamento especial. Oferecemos serviços de cuidados com a barba, que vão desde aparar e modelar até um barbear completo com toalhas quentes, proporcionando-lhe uma experiência relaxante e revigorante. Nossos produtos premium de cuidados com a barba ajudam a manter sua barba saudável e com um aspecto impecável.</p>
+      <h4>Sobrancelhas:</h4>
+      <p>Sabemos que detalhes fazem toda a diferença, e isso se aplica também ao formato e aparência das suas sobrancelhas. Nossos especialistas em sobrancelhas garantem que suas características faciais sejam realçadas da melhor maneira possível, criando sobrancelhas bem cuidadas e simétricas que complementam o seu rosto.</p>
+    </div>
+    <section class="haircuts">
+
+      <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+        <img src="assets/CorteBasico.jpg" alt="Corte basico">
+        <div class="haircut-info">
+          <strong>Corte de cabelo</strong>
+          <button>
+            R$ 35.00
+          </button>
+        </div>
+      </div>
+
+      <div class="haircut" data-aos="fade-down" data-aos-delay="250">
+        <img src="assets/CorteNavalha.jpg" alt="Corte + navalha">
+        <div class="haircut-info">
+          <strong>Acabamento</strong>
+          <button>
+            R$ 20.00
+          </button>
+        </div>
+      </div>
+
+      <div class="haircut" data-aos="fade-up" data-aos-delay="250">
+        <img src="assets/Barba.jpg" alt="Barba">
+        <div class="haircut-info">
+          <strong>Barba</strong>
+          <button>
+            R$ 20.00
+          </button>
+        </div>
+      </div>
+
+      <div class="haircut" data-aos="fade-down" data-aos-delay="250">
+        <img src="assets/Sobrancelhas.jpeg" alt="Sobrancelhas">
+        <div class="haircut-info">
+          <strong>Sobrancelhas</strong>
+          <button>
+            R$ 18.00
+          </button>
+        </div>
+      </div>
+
+    </section>
+  </section>
+
+  <div class="services">
+    <h2>Estamos localizados</h2>
+  </div>
+  <iframe 
+    width="100%"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.11614062173!2d-49.06268512351751!3d-28.50615326166138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9521683f1c07b841%3A0x6d714f01bf97b59c!2sR.%20Dion%C3%ADsio%20Manoel%20Guarezi%2C%20Tubar%C3%A3o%20-%20SC%2C%2088703-652!5e0!3m2!1spt-BR!2sbr!4v1689814116674!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+
+  <footer class="footer">
+    <div>
+      <img 
+        src="assets/logo.svg" 
+        alt="Logo barbearia"
+      />
+    </div>
+    <p>Copyright 2023 | Bravos Barbearia - Todos direitos reservados.</p>
+  </footer>
+  <a href="https://api.whatsapp.com/send?phone=5548991781573&text=Quero%20fazer%20um%20agendamento%20hoje!" class="btn-whatsapp" target="_blank">
+    <img src="assets/whatsapp.svg" alt="WhatssApp"
+    data-aos="zoom-in-up" data-aos-delay="400">
+    <span class="span">Agendar horário</span>
+  </a>
+
+  <script src="animacao.js"></script>
+</body>
+</html>

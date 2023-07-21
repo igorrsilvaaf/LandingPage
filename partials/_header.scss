@@ -1,0 +1,81 @@
+header{
+  width: 100%;
+}
+
+.header-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i{
+  color: $white-normal;
+}
+
+.header-icons{
+  display: flex;
+  font-size: 28px;
+  gap: 12px;
+}
+
+.header-icons a:hover{
+  i{
+    animation: translateY 0.8s infinite alternate; /*define o tempo da tramsaçao infinita para que nao fique subindo e descendo*/
+    color: $red-light;
+  }
+}
+
+/*Animaçao dos icones de rede social*/
+@keyframes translateY{
+  from{ /*Posiçao incial*/
+    transform: translateY(0) scale(1);
+  }
+  to{ /*Posiçao final*/
+    transform: translateY(-8px) scale(1.1);
+  }
+}
+
+.header-button{
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+  color: $white-normal;
+  background-color: $red-light;
+  transition: background-color 0.8s;
+}
+
+.header-button:hover{
+  background-color: $red-normal;
+}
+
+.header-logo{
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+/*Responsividade do meu header*/
+@media screen and (max-width: 768px) {
+  .header-content{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    i{
+      margin-top: 16px;
+      font-size: 34px;
+    }
+  }
+
+  .header-logo{
+    width: 140px;
+    margin-top: 35px;
+  }
+
+  .header-button{
+    display: none;
+  }
+}
