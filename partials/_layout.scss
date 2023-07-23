@@ -39,9 +39,9 @@
 
   h1{
     text-align: center;
-    max-width: 920px;
-    font-size: 34px;
-    margin-bottom: -15px;
+    max-width: 900px;
+    font-size: 40px;
+    margin-top: -280px;
     padding: 20px;
   }
 
@@ -50,11 +50,13 @@
     flex-direction: column;
     align-items: center;
     padding: 15px;
+    color: $red-dark;
   }
 
   P{
     text-align: center;
     align-items: center;
+    margin-top: -10px;
   }
 }
 
@@ -65,10 +67,11 @@
   border-radius: 4px;
   font-size: 18px;
   font-weight: 600;
-  margin: 14px 0;
+  margin: 20px 0;
 }
 
 .button-contact:hover{
+  background-color: $red-dark;
   animation: scaleButton 0.8s alternate infinite;
 }
 
@@ -88,7 +91,7 @@
     h1{
       font-size: 28px;
       padding: 10px;
-      justify-content: space-between;
+      margin-top: 20px;
     }
 
     h3{
