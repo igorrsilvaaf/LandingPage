@@ -36,7 +36,7 @@ i{
 }
 
 .header-button{
-  padding: 8px 14px;
+  padding: 10px 18px;
   font-size: 14px;
   border-radius: 4px;
   color: $white-normal;
@@ -53,7 +53,7 @@ i{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -50px;
+  margin-top: -20px;
 }
 
 /*Responsividade do meu header*/
@@ -65,13 +65,14 @@ i{
     justify-content: center;
 
     i{
-      margin-top: 10px;
-      font-size: 24px;
+      margin-top: 15px;
+      font-size: 29px;
     }
   }
 
   .header-logo{
     width: 280px;
+    margin-top: -60px;
   }
 
   .header-button{
