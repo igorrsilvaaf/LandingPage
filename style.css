@@ -128,12 +128,13 @@ i {
   flex-direction: column;
   align-items: center;
   padding: 15px;
-  color: #b42b2b;
+  color: #edeaef;
 }
 .hero P {
   text-align: center;
   align-items: center;
   margin-top: -10px;
+  color: #edeaef;
 }
 
 .button-contact {
@@ -164,9 +165,10 @@ i {
     min-height: 60vh;
   }
   .hero h1 {
-    font-size: 28px;
-    padding: 10px;
-    margin-top: 20px;
+    font-size: 23px;
+    padding: 5px;
+    margin-top: -40px;
+    text-align: center;
   }
   .hero h3 {
     padding: 0 10px;
@@ -192,7 +194,7 @@ i {
 .about {
   background-color: #000000;
   overflow: hidden;
-  color: #fff;
+  color: #edeaef;
 }
 
 .about-content {
@@ -200,7 +202,7 @@ i {
   align-items: center;
   justify-content: center;
   gap: 9px;
-  padding: 24px 14px 14px;
+  padding: 4px 10px 10px;
 }
 .about-content img {
   max-width: 500px;
@@ -211,12 +213,12 @@ i {
 }
 
 .about-description h2 {
-  color: #d94140;
-  font-size: 40px;
-  margin-bottom: 25px;
+  color: #b42b2b;
+  font-size: 38px;
+  margin-bottom: 10px;
 }
 .about-description p {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   line-height: 150%;
 }
 
