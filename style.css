@@ -220,7 +220,7 @@ i {
   margin-bottom: 20px;
   line-height: 130%;
   font-size: 18px;
-  text-align: center;
+  text-align: justify;
 }
 
 @media screen and (max-width: 768px) {
@@ -325,7 +325,7 @@ i {
   align-items: center;
   justify-content: center;
   padding: 120px 14px;
-  background-color: #000000;
+  background: linear-gradient(rgb(32, 32, 32), rgb(0, 0, 0));
 }
 
 .schedule {

@@ -161,7 +161,7 @@
     margin-bottom: 20px;
     line-height: 130%;
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
   }
 }
 
@@ -287,7 +287,8 @@
   align-items: center;
   justify-content: center;
   padding: 120px 14px;
-  background-color: $primary-normal;
+  //background-color: $primary-normal;
+  background: linear-gradient(rgb(32, 32, 32), rgba(0, 0, 0, 1)); 
 }
 
 .schedule{
