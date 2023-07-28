@@ -36,8 +36,8 @@ i{
 }
 
 .header-button{
-  padding: 10px 20px;
-  font-size: 20px;
+  padding: 9px 10px;
+  font-size: 16px;
   border-radius: 4px;
   color: $white-normal;
   background-color: $red-light;
@@ -53,10 +53,10 @@ i{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: -50px;
 }
 
-/*Responsividade do meu header*/
+
 @media screen and (max-width: 768px) {
   .header-content{
     width: 100%;

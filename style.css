@@ -41,8 +41,8 @@ i {
   }
 }
 .header-button {
-  padding: 10px 20px;
-  font-size: 20px;
+  padding: 9px 10px;
+  font-size: 16px;
   border-radius: 4px;
   color: #fff;
   background-color: #d34040;
@@ -58,10 +58,9 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -20px;
+  margin-top: -50px;
 }
 
-/*Responsividade do meu header*/
 @media screen and (max-width: 768px) {
   .header-content {
     width: 100%;
@@ -128,7 +127,7 @@ i {
   flex-direction: column;
   align-items: center;
   padding: 15px;
-  color: #b42b2b;
+  color: #d34040;
 }
 .hero P {
   text-align: center;
@@ -232,7 +231,7 @@ i {
   }
 }
 .services {
-  background-color: #edeaef;
+  background-color: #dddddd;
   color: #232224;
   display: flex;
   flex-direction: column;
