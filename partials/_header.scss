@@ -27,10 +27,10 @@ i{
 
 /*Animaçao dos icones de rede social*/
 @keyframes translateY{
-  from{ /*Posiçao incial*/
+  from{ 
     transform: translateY(0) scale(1);
   }
-  to{ /*Posiçao final*/
+  to{ 
     transform: translateY(-8px) scale(1.1);
   }
 }
