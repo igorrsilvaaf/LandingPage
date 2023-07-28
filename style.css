@@ -321,6 +321,63 @@ i {
     max-width: 740px;
   }
 }
+.schedules {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.schedule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 16px 10px 10px;
+}
+.schedule img {
+  max-width: 600px;
+}
+
+.schedule div {
+  flex: 1;
+}
+
+.schedule-description h2 {
+  color: #b42b2b;
+  font-size: 38px;
+  max-width: 400px;
+  width: 100%;
+  margin-top: -100px;
+  padding: 9px 9px 20px;
+}
+
+.schedule-description input[type=text],
+.schedule-description input[type=password] {
+  width: 90%;
+  padding: 9px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.schedule-description input[type=submit] {
+  width: 90%;
+  padding: 12px;
+  justify-content: center;
+  background-color: #d94140;
+  color: #dddddd;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.8s;
+}
+
+input[type=submit]:hover {
+  background-color: #b42b2b;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
