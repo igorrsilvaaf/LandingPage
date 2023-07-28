@@ -280,11 +280,14 @@
 
 //----------------End haircuts----------
 
+
 //----------------Shedule(Agendar)----------
 .schedules{
-  overflow: hidden;
+  //overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 14px;
   background-color: $primary-normal;
-  max-height: 100%;
 }
 
 .schedule{
@@ -312,11 +315,10 @@
     margin-top: -100px;
     padding: 9px 9px 20px;
   }
-
 }
 
 .schedule-description input[type="text"],
-.schedule-description input[type="password"]{
+.schedule-description input[type="tel"]{
   width: 90%;
   padding: 9px;
   border-radius: 4px;
@@ -344,31 +346,27 @@ input[type="submit"]:hover{
 }
 
 @media screen and (max-width: 768px){
-  schedules{
-    max-height: 90vh;
-  }
-
   .schedule{
     img{
-      width: 210px;
+      width: 180px;
+      height: 170px;
     }
   }
 
   .schedule-description{
-    max-width: 350px;
+    max-width: 400px;
 
     h2{
-      margin-top: 10px;
+      margin-top: -12px;
       font-size: 16px;
       align-items: center;
     }
   }
 
 .schedule-description input[type="text"],
-.schedule-description input[type="password"]{
+.schedule-description input[type="tel"]{
   width: 100%;
-  padding: 6px;
-  margin-bottom: 6px;
+  padding: 2px 6px 6px;
 }
 
 .schedule-description input[type="submit"]{
