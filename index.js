@@ -11,7 +11,7 @@ buttonsWpp.forEach(button => {
 });
 
 
-  // Função que irá mostrar a mensagem de sucesso no envio
+  // Função que irá trocar a mensagem do h2
   function SuccessMessage() {
     document.getElementById("schedule-heading").innerText = "Mensagem enviada."
   }
