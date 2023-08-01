@@ -137,17 +137,14 @@
       </div>
   
       <div class="schedule-description">
-        <h2>Agende seu horário</h2>
-        <form id="scheduleForm" action="https://formsubmit.co/igorprogramacao24@gmail.com" method="post">
+        <h2 id="schedule-heading">Agende seu horário</h2>
+        <form action="https://formsubmit.co/igorprogramacao24@gmail.com" method="post">
           <input type="text" name="name" placeholder="Informe seu nome" required>
           <input type="tel" name="number" placeholder="Seu WhatssApp com DDD" required>
           <input type="hidden" name="_captcha" value="false">
-          <input type="submit" value="ENVIAR">
+          <input type="submit" value="ENVIAR" onclick="SuccessMessage()">
         </form>
       </div>
-    </div>
-    <div id="successMessage" style="display: none; text-align: center;">
-      <p>Mensagem enviada para nossa agenda.</p>
     </div>
   </section>
 

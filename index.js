@@ -12,13 +12,6 @@ buttonsWpp.forEach(button => {
 
 
   // Função que irá mostrar a mensagem de sucesso no envio
-  function showSuccessMessage() {
-    document.getElementById("scheduleForm").style.display = "none";
-    document.getElementById("successMessage").style.display = "block";
-    document.querySelector(".schedule-description h2").innerText = "Mensagem enviada";
+  function SuccessMessage() {
+    document.getElementById("schedule-heading").innerText = "Mensagem enviada para nossa agenda"
   }
-
-  document.getElementById("scheduleForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Impede o envio padrão do formulário
-    showSuccessMessage(); // Mostra a mensagem de sucesso
-  });
