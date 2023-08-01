@@ -13,5 +13,5 @@ buttonsWpp.forEach(button => {
 
   // Função que irá mostrar a mensagem de sucesso no envio
   function SuccessMessage() {
-    document.getElementById("schedule-heading").innerText = "Mensagem enviada para nossa agenda"
+    document.getElementById("schedule-heading").innerText = "Mensagem enviada."
   }
