@@ -135,17 +135,19 @@
       <div>
         <img src="assets/AgendaHr.jpg" alt="Agende seu horario">
       </div>
-
+  
       <div class="schedule-description">
         <h2>Agende seu horário</h2>
-        <form action="https://formsubmit.co/igorprogramacao24@gmail.com" method="post">
+        <form id="scheduleForm" action="https://formsubmit.co/igorprogramacao24@gmail.com" method="post">
           <input type="text" name="name" placeholder="Informe seu nome" required>
           <input type="tel" name="number" placeholder="Seu WhatssApp com DDD" required>
           <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://barbeariabravos.netlify.app/">
-          <input type="submit" value="ENTRAR">
+          <input type="submit" value="ENVIAR">
         </form>
       </div>
+    </div>
+    <div id="successMessage" style="display: none; text-align: center;">
+      <p>Mensagem enviada para nossa agenda.</p>
     </div>
   </section>
 
