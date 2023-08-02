@@ -13,5 +13,7 @@ buttonsWpp.forEach(button => {
 
   // Função que irá trocar a mensagem do h2
   function SuccessMessage() {
-    document.getElementById("schedule-heading").innerText = "Mensagem enviada."
+    var heading = document.getElementById("schedule-heading");
+    heading.innerText = "Mensagem enviada.";
+    heading.style.color = "yellow";
   }
